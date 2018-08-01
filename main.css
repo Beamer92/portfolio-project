@@ -1,0 +1,10 @@
+header{
+  color: green;
+  border:1px black solid;
+  border-radius: 10px;
+}
+
+.col-3, .col-9, .col{
+  border:1px black solid;
+  border-radius: 10px;
+}
