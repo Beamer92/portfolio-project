@@ -4,7 +4,28 @@ header{
   border-radius: 10px;
 }
 
-.col-3, .col-9, .col{
+div.col-9{
   border:1px black solid;
   border-radius: 10px;
+}
+
+div.col-3{
+  padding-left: 0px;
+}
+
+article.bx{
+  border:1px black solid;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+div.row.flexbox {
+  justify-content: space-around;
+}
+
+div.row.flexbox a{
+  color:red;
+  border:1px black solid;
+  border-radius: 5px;
+  padding: 3px;
 }
