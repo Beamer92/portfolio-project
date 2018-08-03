@@ -1,5 +1,8 @@
+body {
+	background: #FFFFF6;
+}
+
 header.flexbox.head {
- color: green;
  justify-content: space-between;
  width:100%;
 }
@@ -9,23 +12,26 @@ h1{
  margin-bottom: 0px;
 }
 
+#D20 {
+	display: flex;
+	padding-left: 20px;
+	margin-bottom: 3em;
+	margin-top: 1em;
+}
+
+#D20 img {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .container {
  padding-left: 0px;	
-}
-
-div.col-9{
-  border:1px black solid;
-  border-radius: 10px;
-}
-
-div.col-3{
-  padding-left: 0px;
 }
 
 #contactlinks {
  padding-top: 10px;
  padding-bottom: 10px;
- padding-left: 20px;
+ padding-left: 30px;
 }
 
 #contactlinks a{
@@ -56,17 +62,33 @@ article.flexbox.bx.b{
 
 article.bx{
   padding: 2px;
-  padding-top: 5px;
-  padding-left: 40px;
+  padding-left: 20px;
+  margin-top: 1em;
 }
 
 article.bx h4 {
 	margin-top:0em;
 	padding-left: 0px;
 }
-.col {
-	//flex-grow: .8;
-	//max-width: 75%;
+
+article.bx p {
+	padding-top: 5px;
+	max-width: 60%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+	padding-left:20px;
+	padding-bottom: 10px;
+}
+
+#pro{
+	object-fit: contain;
+	flex-grow:0;	
+	margin: 1em;
 }
 
 .flexbox{
@@ -74,24 +96,7 @@ article.bx h4 {
 	flex-wrap: wrap;
 }
 
-
-div.row.flexbox.proj {
-  justify-content: space-around;
-  padding: 5px;
-
-}
-
-div.row.flexbox a{
-  color:red;
-  border:1px black solid;
-  border-radius: 5px;
-  padding: 3px;
-}
-
-
  .row {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-
-
