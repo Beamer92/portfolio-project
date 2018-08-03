@@ -1,7 +1,16 @@
-header{
-  color: green;
-  border:1px black solid;
-  border-radius: 10px;
+header.flexbox.head {
+ color: green;
+ justify-content: space-between;
+ width:100%;
+}
+
+h1{
+ padding-left: 20px;
+ margin-bottom: 0px;
+}
+
+.container {
+ padding-left: 0px;	
 }
 
 div.col-9{
@@ -13,21 +22,63 @@ div.col-3{
   padding-left: 0px;
 }
 
+#contactlinks {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 20px;
+}
+
+#contactlinks a{
+ padding-left: 0px;
+ padding-right: 20px;
+}
+
+#face {
+ width:265.5px;
+ height: 200px;
+ flex-grow:0;	
+}
+
+h4 {
+  margin-top:1em;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+article p {
+ min-width:300px;
+}
+
+
+article.flexbox.bx.b{
+  padding-left: 20px;
+}
+
 article.bx{
-  border:1px black solid;
-  border-radius: 10px;
   padding: 2px;
   padding-top: 5px;
-  padding-left: 15px;
+  padding-left: 40px;
 }
 
-article.bx.b{
-  margin-top:1em;
+article.bx h4 {
+	margin-top:0em;
+	padding-left: 0px;
+}
+.col {
+	//flex-grow: .8;
+	//max-width: 75%;
 }
 
-div.row.flexbox {
+.flexbox{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+div.row.flexbox.proj {
   justify-content: space-around;
   padding: 5px;
+
 }
 
 div.row.flexbox a{
@@ -37,15 +88,10 @@ div.row.flexbox a{
   padding: 3px;
 }
 
-div.row.p {
-
-}
 
  .row {
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
-h4{
-  padding-top: 5px;
-}
+
