@@ -17,10 +17,17 @@ article.bx{
   border:1px black solid;
   border-radius: 10px;
   padding: 2px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+article.bx.b{
+  margin-top:1em;
 }
 
 div.row.flexbox {
   justify-content: space-around;
+  padding: 5px;
 }
 
 div.row.flexbox a{
@@ -28,4 +35,17 @@ div.row.flexbox a{
   border:1px black solid;
   border-radius: 5px;
   padding: 3px;
+}
+
+div.row.p {
+
+}
+
+ .row {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h4{
+  padding-top: 5px;
 }
