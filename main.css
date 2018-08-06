@@ -25,7 +25,7 @@ h1{
 }
 
 .container {
- padding-left: 0px;	
+ padding-left: 0px;
 }
 
 #contactlinks {
@@ -42,7 +42,7 @@ h1{
 #face {
  width:265.5px;
  height: 200px;
- flex-grow:0;	
+ flex-grow:0;
 }
 
 h4 {
@@ -87,7 +87,7 @@ li {
 
 #pro{
 	object-fit: contain;
-	flex-grow:0;	
+	flex-grow:0;
 	margin: 1em;
 }
 
@@ -99,4 +99,18 @@ li {
  .row {
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+textarea, label {
+	margin:1em;
+	margin-top: 3em;
+}
+
+#name, #email{
+	max-width: 350px;
+}
+
+#submit {
+	margin:1em;
+	max-width: 150px;
 }
