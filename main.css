@@ -101,13 +101,18 @@ li {
   padding-bottom: 1em;
 }
 
-textarea, label {
+label {
 	margin:1em;
 	margin-top: 3em;
 }
 
 #name, #email{
 	max-width: 350px;
+}
+
+#subject{
+	max-width:550px;
+	min-width:400px;
 }
 
 #submit {

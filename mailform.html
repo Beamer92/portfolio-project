@@ -11,6 +11,11 @@
   <section class="container">
     <header class="flexbox head">
       <h1>Contact Me</h1>
+      <div id="contactlinks">
+     <a href="https://github.com/Beamer92" id ="GitHub"><img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" style="width:25px; height:25px;"></a>
+     <a href="https://www.linkedin.com/in/brendan-woodell-6a4ba385/" id="LinkedIn"><img src="http://www.vhtrucks.com/wp-content/uploads/2018/01/linkedin-logo.png" style="width:25px; height:25px;"></a>
+     <a href="index.html" id="Home"><img src="https://cdn2.iconfinder.com/data/icons/web-iconset-pt-1/100/047_-_homepage-512.png" style="width:45px; height:45px;"></a>
+     </div>
     </header>
     <div id="D20" class="flexbox">
   	<img src="d20bl.jpg" style="width: 20px; height:20px;">
@@ -19,19 +24,28 @@
   	<img src="d20pi.jpg" style="width: 20px; height:20px;">
   	<img src="d20b2.jpg" style="width: 20px; height:20px;">
   	</div>
-    <div clas"row">
+
+    <form 
+    //action="mailform.php" method="POST"
+    >
+    <div>
      <label>Name: </label>
-     <input type="text" id="name" class="col-4">
+     <input type="text" id="name">
      <label>Email: </label>
-     <input  type="email" id="email" class="col-4">
+     <input  type="email" id="email">
   </div>
-  <div clas"row">
+  <div>
+    <label>Subject: </label>
+    <input type="text" id="subject">
+  </div>
+  <div class="row">
     <label style="vertical-align:top" >Message: </label>
     <textarea rows="5" cols="50" id="content" class="col-8"></textarea>
   </div>
-  <div clas"row">
+  <div class="row">
     <input type="submit" id="submit" class="col" value="Send">
   </div>
+</form>
   </section>
   </body>
 </html>
