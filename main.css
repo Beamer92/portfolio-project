@@ -43,7 +43,7 @@ h1{
 
 #face {
  width:265.5px;
- height: 200px;
+ height: 250px;
  flex-grow:0;
 }
 
@@ -73,9 +73,13 @@ article.bx h4 {
 	padding-left: 0px;
 }
 
-article.bx p {
+article.bx p.col {
 	padding-top: 5px;
 	max-width: 60%;
+}
+
+article.bx p.col-12 {
+	padding-top: 5px;
 }
 
 ul {
@@ -101,6 +105,10 @@ li {
  .row {
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+div.row {
+	padding-left: 35px;
 }
 
 label {
