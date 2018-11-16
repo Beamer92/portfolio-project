@@ -80,7 +80,6 @@ typings/
 # FuseBox cache
 .fusebox/
 
-.php
-CNAME.txt
+CNAME
 
 # End of https://www.gitignore.io/api/node
